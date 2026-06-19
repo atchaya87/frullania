@@ -1,0 +1,26 @@
+ID,Species, term_branchlength_avg, term_branchlength_dev, internal_branchlength_avg, internal_branchlength_dev
+1,F. delangeii,1.57,0.52,1.59,0.58
+2,F. delangeii,1.47,0.73,0.69,0.3
+3,F. delangeii,1.04,0.55,0.71,0.19
+4,F. delangeii,1.07,0.44,1.14,0.75
+5,F. delangeii,1.65,1.19,1.48,0.9
+6,F. delangeii,1.57,0.76,1.3,0.61
+7,F. delangeii,1.06,0.52,0.67,0.25
+8,F. delangeii,1.42,0.81,1.57,0.77
+9,F. delangeii,1.31,0.39,0.81,0.24
+10,F. delangeii,0.89,0.6,0.8,0.38
+11,F. delangeii,0.95,0.34,0.52,0.17
+12,F. delangeii,1.09,0.6,0.67,0.36
+13,F. delangeii,1.66,0.01,3.63,0
+14,F. delangeii,3.58,0.29,1.88,0
+15,F. rostrata,0.93,0.37,0.68,0.17
+16,F. rostrata,1.37,0.95,0.71,0.38
+17,F. rostrata,0.88,0.56,0.64,0.08
+18,F. rostrata,0.96,0.34,0.64,0.21
+19,F. rostrata,0.9,0.34,0.63,0.12
+20,F. rostrata,0.86,0.5,0.71,0.25
+21,F. rostrata,1.63,0.56,0.61,0.16
+22,F. rostrata,1.03,0.43,0.61,0.11
+23,F. rostrata,0.6,0.42,0.86,0.29
+24,F. rostrata,0.9,0.28,0.67,0.23
+25,F. rostrata,1.25,0.62,0.77,0.21
