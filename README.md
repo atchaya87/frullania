@@ -15,7 +15,9 @@ The analysis pipeline uses Principal Component Analysis, or PCA, to reduce the h
 
 1. **Standardization:**   StandardScaler   was applied to ensure that traits with larger absolute scales would not disproportionaly influence result, transforming all features to a mean of 0 and a variance of 1. 
 2. **Dimensionality Reduction:** `scikit-learn` was used to compute the principal components. By focusing on the first two components (PC1 and PC2), the specimens can be grouped in the morphospace.
-3. **Loading Analysis:** We examined the **loadings**—the correlation coefficients between each original trait and the principal components. Traits with the highest absolute loading values are identified as the primary diagnostic characters for the genus.
-
+3. **Loading Analysis:** Loadings, or the correlation coefficients between each original trait and PC1 and PC2 respectively, were identified. Traits with the highest absolute loading values are identified as the primary diagnostic characters driving differences between *F. delangeii* and *F. rostrata*.
+   
 ## Repository Contents
-
+1. `/Cleaned Data`: Contains cleaned `.csv` data separated by character immediately useable for morphometric analysis.
+2. `/Scripts`: Contains the Python analysis pipelines (`branching_architecture.py`, `leaf_morphology.py`) used to process data and generate PCA models.
+3. `/Figures`: Contains graph outputs, including PCA scatterplots and trait contribution loading profiles.
