@@ -1,4 +1,4 @@
-# Frullania Morphometry Principal Component Analysis
+# Frullania Morphometry PCA 
 
 This repository contains the data analysis pipeline used to quantify morphological differentiation between *Frullania delangeii* and *Frullania rostrata*.
 
