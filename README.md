@@ -1,4 +1,4 @@
-# Frullania Morphometric Analysis (PCA)
+# Frullania Morphometry Principal Component Analysis
 
 This repository contains the data analysis pipeline used to quantify morphological differentiation between *Frullania delangeii* and *Frullania rostrata*.
 
@@ -11,7 +11,7 @@ We evaluate morphological variation across two distinct groups of characters: a 
 Raw morphological measurements across various files were placed in standardized spreadsheets containing specimen IDs, species names, and corresponding character measurements. The process involved data validation, removing missing entries, and proper formatting. Three spreadsheets were created: a full leaf-character dataset (n = 68), a reduced leaf-character subset containing specimens with complete trait coverage (n = 24), and a branching-character dataset (n = 25).
 
 ### Analysis
-The analysis pipeline uses Principal Component Analysis, or PCA, to reduce the high-dimensional datasets into two-dimensional components, allowing visualization of morphological similarity and separation of *F. delangeii* and *F. rostrata* through cluster formation. Furthermore, PCA facilitates the identification of the major characters driving separation between the species. 
+The analysis pipeline uses Principal Component Analysis (PCA) to reduce the high-dimensional datasets into two-dimensional components, allowing visualization of morphological similarity and separation of *F. delangeii* and *F. rostrata* through cluster formation. Furthermore, PCA facilitates the identification of the major characters driving separation between the species. 
 
 1. **Standardization:**   StandardScaler   was applied to ensure that traits with larger absolute scales would not disproportionately influence the results, transforming all features to a mean of 0 and a variance of 1. 
 2. **2D Dimensionality:** `scikit-learn` was used to compute the principal components. By focusing on the first two components (PC1 and PC2), the specimens can be grouped in the morphospace.
